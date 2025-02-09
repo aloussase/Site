@@ -1,8 +1,8 @@
 This is the source code for my personal website.
 
-Built with Hakyll <3.
+Built with Hakyll ❤️.
 
-## Build
+## ⚒️ Build
 
 ```bash
 npm install
