@@ -1,0 +1,13 @@
+<ul class="flex flex-col gap-2">
+    $for(posts)$
+        <li class="flex flex-col">
+          <span class="text-lg font-bold">$title$</span>
+          $date$
+          $if(teaser)$
+            <small>$teaser$</small>
+          $endif$
+          <a href="$url$" class="button block bg-gray-400 text-white rounded-md w-fit p-1 decoration-none hover:bg-gray-300 justify-self-end">Read more</a>
+        </li>
+        $sep$<hr>
+    $endfor$
+</ul>
